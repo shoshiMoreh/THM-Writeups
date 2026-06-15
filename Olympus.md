@@ -47,7 +47,7 @@ Found a suspicious directory!
 
 ## Step 3 – SQL Injection
 
-Navigating to the subdomain, I landed on a **CMS**. Looking around the page, I noticed a search field — which immediately raises the question: could this be vulnerable to **SQL Injection**?
+Navigating to the discovered directory, I landed on a **CMS**. Looking around the page, I noticed a search field — which immediately raises the question: could this be vulnerable to **SQL Injection**?
 
 A quick search on ExploitDB confirms that this type of PHP-based CMS does have a known SQLi vulnerability:  
 🔗 https://www.exploit-db.com/exploits/48734
@@ -195,7 +195,7 @@ I used it to copy zeus's SSH private key to a location I could read.
 
 cputils usage-
 
-<img width="870" height="532" alt="image18" src="https://github.com/user-attachments/assets/b17aadab-6f5d-4a90-ac4a-30caed6c68a6" />
+<img width="876" height="533" alt="image" src="https://github.com/user-attachments/assets/6716433d-2c23-4890-b534-8b48bd472bdc" />
 
 ---
 
