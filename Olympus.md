@@ -31,13 +31,17 @@ website main page-
 
 <img width="1912" height="607" alt="image2" src="https://github.com/user-attachments/assets/dd32d635-c31a-41d1-a271-13fcf930d513" />
 
-Nothing interesting on the surface. Checking the page source, cookies, and headers didn't reveal anything useful either. Time to look for **subdomains**.
+Nothing interesting on the surface. Checking the page source, cookies, and headers didn't reveal anything useful either. Time to look for **hidden directories**.
 
-subdomain enumeration-
-
+## Directory Enumeration-
+To find hidden folders and files, I ran a directory brute-force attack using gobuster:
+```bash
+gobuster dir -u http://olympus.thm -w /usr/share/wordlists/dirb/common.txt
+```
+the result-
 <img width="550" height="261" alt="image" src="https://github.com/user-attachments/assets/490b75ce-cf7f-4a7d-b2bc-78501f12a67f" />
 
-Found a suspicious subdomain!
+Found a suspicious directory!
 
 ---
 
